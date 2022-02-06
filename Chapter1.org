@@ -1,0 +1,45 @@
+#+TITLE: Test
+
+* About org mode
+
+
++ [[Chapter 1][Chapter 1]]
+  + [[About checklists]]
++ [[Summary]]
+
+** Introduction
+Hello, this is introduction section
+
+** Chapter 1
+Content of chapter 1
+*** About Headline
+This is about headline
+*** About Outline
+This is anout outline
+- one
+- two
+- three
+*** About checklists
+1. First item
+2. Second item
+3. Third item
+** Summary
+This is summary of chapter 1
+** The Source Code
+
+#+begin_src elisp
+(+ 2 3 4 5)
+
+(defun great(name)
+  (concat "Hello " name))
+(great "DUY")
+#+end_src
+
+#+begin_src js
+function great(name) {
+    let a = 1;
+    console.log("Hello ", name)
+}
+
+great("DUY")
+#+end_src
